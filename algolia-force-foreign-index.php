@@ -8,6 +8,13 @@
  * License: GPL v3
  */
 
+/**
+ * Filters Algolia's settings to use the yoastcom_searchable_posts index.
+ *
+ * @param $config array Array containing algolia autocomplete configuration.
+ *
+ * @return array
+ */
 add_filter( 'algolia_autocomplete_config', function ( $config ) {
 
 	$prefix = 'yoastcom';
