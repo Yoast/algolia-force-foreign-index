@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Plugin Name: Algolia force foreign index
  * Version: 2.0
@@ -8,7 +7,6 @@
  * Author URI: https://yoast.com/
  * License: GPL v3
  */
-
 
 add_filter( 'algolia_autocomplete_config', function ( $config ) {
 
