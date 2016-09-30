@@ -31,3 +31,10 @@ add_filter( 'algolia_autocomplete_config', function ( $config ) {
 
 	return $config;
 } );
+
+/**
+ * Always enable Algolia autocomplete.
+ */
+add_filter( 'option_algolia_autocomplete_enabled', function ( $option ) {
+	return 'yes';
+} );
